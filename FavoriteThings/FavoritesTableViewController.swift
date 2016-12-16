@@ -39,12 +39,11 @@ class FavoritesTableViewController:  UITableViewController {
         tableView.reloadData()
     }
     
-  //  var parentList : FavoritesList?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
        
-    //    self.navigationItem.title = parentList != nil ? parentList?.title : "Favs"
+        self.navigationItem.title = parentList != nil ? parentList?.title : "Favs"
         
         refetch()
         
