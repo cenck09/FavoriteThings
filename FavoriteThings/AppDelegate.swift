@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  FavoriteThings
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
@@ -89,5 +91,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+    
+//    let errorAlert : UIAlertController = {
+//        let alertView = UIAlertController(title: "An Error has occured", message: nil, preferredStyle: UIAlertControllerStyle.alert)
+//        alertView.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.cancel, handler: { (action) in
+//            NSLog("General Error ")
+//        }))
+//        return alertView
+//    }()
+//
+//    let successAlert : UIAlertController = {
+//        let alertView = UIAlertController(title: "Successfully Created ", message: nil, preferredStyle: UIAlertControllerStyle.alert)
+//        alertView.addAction(UIAlertAction(title: "Okay", style: UIAlertActionStyle.default, handler: { (action) in
+//            NSLog("General success ")
+//        }))
+//        return alertView
+//    }()
+//
 }
 

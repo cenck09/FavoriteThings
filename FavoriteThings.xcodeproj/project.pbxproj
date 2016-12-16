@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8358493D1DCFDA5F0084C0B9 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8358493C1DCFDA5F0084C0B9 /* FavoritesTableViewController.swift */; };
 		839AF3031DCF969100DCE9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AF3021DCF969100DCE9C8 /* AppDelegate.swift */; };
-		839AF3051DCF969100DCE9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AF3041DCF969100DCE9C8 /* ViewController.swift */; };
+		839AF3051DCF969100DCE9C8 /* FavoritesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AF3041DCF969100DCE9C8 /* FavoritesListTableViewController.swift */; };
 		839AF3081DCF969100DCE9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839AF3061DCF969100DCE9C8 /* Main.storyboard */; };
 		839AF30B1DCF969100DCE9C8 /* FavoriteThings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 839AF3091DCF969100DCE9C8 /* FavoriteThings.xcdatamodeld */; };
 		839AF30D1DCF969100DCE9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839AF30C1DCF969100DCE9C8 /* Assets.xcassets */; };
 		839AF3101DCF969100DCE9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839AF30E1DCF969100DCE9C8 /* LaunchScreen.storyboard */; };
 		839AF31B1DCF969100DCE9C8 /* FavoriteThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839AF31A1DCF969100DCE9C8 /* FavoriteThingsTests.swift */; };
+		83F7FC581DCF9CDD003F682A /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 83F7FC571DCF9CDD003F682A /* Model */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8358493C1DCFDA5F0084C0B9 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
 		839AF2FF1DCF969100DCE9C8 /* FavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839AF3021DCF969100DCE9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		839AF3041DCF969100DCE9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		839AF3041DCF969100DCE9C8 /* FavoritesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListTableViewController.swift; sourceTree = "<group>"; };
 		839AF3071DCF969100DCE9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		839AF30A1DCF969100DCE9C8 /* FavoriteThings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FavoriteThings.xcdatamodel; sourceTree = "<group>"; };
 		839AF30C1DCF969100DCE9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		839AF3161DCF969100DCE9C8 /* FavoriteThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoriteThingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		839AF31A1DCF969100DCE9C8 /* FavoriteThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsTests.swift; sourceTree = "<group>"; };
 		839AF31C1DCF969100DCE9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F7FC571DCF9CDD003F682A /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +83,15 @@
 		839AF3011DCF969100DCE9C8 /* FavoriteThings */ = {
 			isa = PBXGroup;
 			children = (
+				83F7FC571DCF9CDD003F682A /* Model */,
 				839AF3021DCF969100DCE9C8 /* AppDelegate.swift */,
-				839AF3041DCF969100DCE9C8 /* ViewController.swift */,
+				839AF3041DCF969100DCE9C8 /* FavoritesListTableViewController.swift */,
 				839AF3061DCF969100DCE9C8 /* Main.storyboard */,
 				839AF30C1DCF969100DCE9C8 /* Assets.xcassets */,
 				839AF30E1DCF969100DCE9C8 /* LaunchScreen.storyboard */,
 				839AF3111DCF969100DCE9C8 /* Info.plist */,
 				839AF3091DCF969100DCE9C8 /* FavoriteThings.xcdatamodeld */,
+				8358493C1DCFDA5F0084C0B9 /* FavoritesTableViewController.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -149,7 +155,6 @@
 				TargetAttributes = {
 					839AF2FE1DCF969100DCE9C8 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6SV6932H64;
 						ProvisioningStyle = Automatic;
 					};
 					839AF3151DCF969100DCE9C8 = {
@@ -186,6 +191,7 @@
 			files = (
 				839AF3101DCF969100DCE9C8 /* LaunchScreen.storyboard in Resources */,
 				839AF30D1DCF969100DCE9C8 /* Assets.xcassets in Resources */,
+				83F7FC581DCF9CDD003F682A /* Model in Resources */,
 				839AF3081DCF969100DCE9C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,9 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839AF3051DCF969100DCE9C8 /* ViewController.swift in Sources */,
+				839AF3051DCF969100DCE9C8 /* FavoritesListTableViewController.swift in Sources */,
 				839AF3031DCF969100DCE9C8 /* AppDelegate.swift in Sources */,
 				839AF30B1DCF969100DCE9C8 /* FavoriteThings.xcdatamodeld in Sources */,
+				8358493D1DCFDA5F0084C0B9 /* FavoritesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,12 +352,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6SV6932H64;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FavoriteThings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.FavoriteThings;
+				PRODUCT_BUNDLE_IDENTIFIER = FavoriteThing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,12 +367,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6SV6932H64;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FavoriteThings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.FavoriteThings;
+				PRODUCT_BUNDLE_IDENTIFIER = FavoriteThing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +427,7 @@
 				839AF3211DCF969100DCE9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		839AF3221DCF969100DCE9C8 /* Build configuration list for PBXNativeTarget "FavoriteThingsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +436,7 @@
 				839AF3241DCF969100DCE9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
